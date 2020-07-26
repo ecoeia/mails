@@ -34,11 +34,12 @@
 	}
 	.video1{
 		position: absolute;
+Bottom: 50%;
 		margin-left:1%;
 	}
 	iframe{
 		position: absolute;
-		top:40%;
+		top:70%;
 	margin-left:1%;}
 	body{
 		background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(nat.jpg);
