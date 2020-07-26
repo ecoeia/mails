@@ -30,10 +30,14 @@
 	button:hover{
 		background:powderblue;
 	}
-	.video{
+	.video1{
 		position: absolute;
 		margin-left:1%;
 	}
+.video2{
+	position:absolute;
+	top:40%;
+	margin-left:1%;
 	body{
 		background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(nat.jpg);
 		width:100%;
