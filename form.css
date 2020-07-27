@@ -1,0 +1,137 @@
+
+*{
+	margin:0;
+}
+
+
+.SendEmail{
+	position: absolute;
+	left:21%;
+	right:10%;
+	
+	font-size:125%;
+	
+	margin: 0;
+	padding: 3%;
+	font-weight: bold;
+	background-color:  #f5f1bb;
+	border: none;
+	border-radius: 10px; 
+	box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+	
+	//box-shadow:
+	//	0 -1.25rem 1rem -1.5rem rgba(black, 0.4),
+	//	0 0.5rem 1.75rem -0.25rem rgba(black, 0.3),
+	//	0 1.25rem 2.5rem rgba(black, 0.2);
+	color: black;
+	overflow: hidden; }
+
+	button:hover{
+		background:powderblue;
+	}
+	.video1{
+		position: absolute;
+		margin-left:20%;
+		top:37%;
+	}
+	iframe{
+		position: absolute;
+		bottom:0;
+	margin-left:20%;}
+	body{
+		background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(nat.jpg);
+		width:100%;
+		height:100%;
+		background-size: cover;
+		background-position: center,bottom;
+		background-repeat: no-repeat;
+	}
+
+		div,h2{
+ 
+			color: white;
+			border:3px solid transparent;
+			background:#060706a1;
+		}
+
+.msg{
+	display: inline-block;
+	font-size:155%;
+	position: absolute;
+left: 2%;
+top: 10%;
+text-align: center;
+}
+.footer{
+
+	background: #060706a1;
+	color:white;
+	font-size:125%;
+	position: absolute;
+	bottom:-8%;
+
+
+}
+@media (min-width: 360px) {
+  .msg{
+    font-size: 113%;
+    top:11%;
+  }
+  video{
+  	width:60%;
+  	height:30%;
+
+  }
+  .SendEmail{
+  	position: absolute;
+  	top:34%;
+  	font-size:100%;
+  }
+  .heading{
+  	font-size: 120%;
+  }
+}
+
+@media (min-width: 768px) {
+  .msg{
+    font-size: 150%;
+    top:10%;
+  }
+  .SendEmail{
+  	position: absolute;
+top: 27%;
+font-size: 100%;
+left: 30%;
+  }
+  .footer{
+  	bottom:-3%;
+  }
+  .heading{
+  	font-size: 125%;
+  }
+  	
+
+  
+}
+
+@media (min-width:1281px) {
+.msg{
+    font-size: 166%;
+  }
+  .SendEmail{
+      position: absolute;
+    top: 12%;
+    font-size: 107%;
+    left: 70%;
+    padding: 2%;
+}
+  
+  .footer{
+  	bottom:-6%;
+  }
+  .heading{
+  	font-size: 155%;
+  }
+  	
+
+}
