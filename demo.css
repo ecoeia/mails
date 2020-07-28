@@ -6,7 +6,7 @@ max-width:1200px;
   background-color:#BFDFEC;
     background-repeat:repeat-x;
 margin:0 auto;
- background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(B.jpG);
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(B.jpg);
  width:100vw;
    height:100vh;
   animation: movement 10s linear infinite; 
