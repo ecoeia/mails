@@ -92,16 +92,24 @@ p {
 
 /* Title Image */
 .title-image {
-  width: 100%;
+  width: 65%;
  
   position: absolute;
-  right: 5%;
+  right: 18%;
+  top:-10%;
 }
 
 /* Features section */
 #features {
-  z-index: 1;
+  
   position: relative;
+}
+.Sendmail{
+  border: 5px solid greenyellow;
+  padding: 2%;
+  color: #00807a;
+  width: 100vw;
+  font-size: 186%;
 }
 
 .feature-title {
@@ -131,11 +139,6 @@ p {
   line-height: 1.5;
 }
 
-.testimonial-image {
-  width: 30%;
-  border-radius: 300%;
-  margin: 20px;
-}
 
 #press {
   background-color: #C4FB6D;
